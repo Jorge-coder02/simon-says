@@ -1,50 +1,51 @@
-# React + TypeScript + Vite
+# Simon Dice - React Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un juego de Simón Dice desarrollado con React (TypeScript), Tailwind CSS y DaisyUI.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🎮 Características
 
-## Expanding the ESLint configuration
+Interfaz atractiva y responsiva con Tailwind CSS y DaisyUI.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Mecánica de juego clásica: Memoriza y repite la secuencia de colores.
 
-- Configure the top-level `parserOptions` property like this:
+Sonidos y efectos visuales para una mejor experiencia de usuario.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+# 🚀 Instalación y Uso
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+** Clona el repositorio: 
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+git clone https://github.com/tuusuario/simon-dice.git
+cd simon-dice
+
+** Instala las dependencias:
+
+npm install
+
+** Inicia la aplicación en modo desarrollo:
+
+npm run dev
+
+** Abre en el navegador:
+
+http://localhost:5173
+(o el puerto configurado en tu entorno)
+
+
+# 🛠️ Tecnologías Usadas
+
+React - Framework para la interfaz.
+
+Tailwind CSS - Estilos eficientes y personalizables.
+
+DaisyUI - Componentes UI bonitos y accesibles.
+
+Vite - Entorno de desarrollo rápido.
+
+
+# 📜 Licencia
+
+Este proyecto está bajo la licencia MIT.
+
+¡Diviértete jugando y mejorando tu memoria! 🧠🎨
