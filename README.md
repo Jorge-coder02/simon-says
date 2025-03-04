@@ -1,5 +1,8 @@
 # Simon Dice - React Game
 
+# Enlace a la página del juego:
+simonsaysjorge.netlify.app
+
 Este es un juego de Simón Dice desarrollado con React (TypeScript), Tailwind CSS y DaisyUI.
 
 
